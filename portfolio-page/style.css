@@ -1,0 +1,598 @@
+.portfolio-landing-page,
+.portfolio-landing-page * {
+  box-sizing: border-box;
+}
+.portfolio-landing-page {
+  background: var(--white, #ffffff);
+  width: 1440px;
+  height: 2333px;
+  position: relative;
+  overflow: hidden;
+}
+.navigation-footer {
+  background: var(--white, #ffffff);
+  padding: 24px 160px 24px 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 2253px;
+  box-shadow: inset 0px 1px 0px 0px rgba(229, 229, 229, 1);
+  overflow: hidden;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.fath-yassine {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font-family: var(
+    --secondary-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--secondary-regular-font-size, 14px);
+  line-height: var(--secondary-regular-line-height, 24px);
+  font-weight: var(--secondary-regular-font-weight, 500);
+  position: relative;
+}
+.div {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font-family: var(
+    --secondary-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--secondary-regular-font-size, 14px);
+  line-height: var(--secondary-regular-line-height, 24px);
+  font-weight: var(--secondary-regular-font-weight, 500);
+  position: relative;
+}
+.feel-free-to-drop-a-hello-fathyassine-20-gmail-com {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font-family: var(
+    --secondary-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--secondary-regular-font-size, 14px);
+  line-height: var(--secondary-regular-line-height, 24px);
+  font-weight: var(--secondary-regular-font-weight, 500);
+  position: relative;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-mail {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.icon2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.side-projects {
+  width: 740px;
+  height: 851px;
+  position: absolute;
+  left: 350px;
+  top: 1329px;
+}
+.side-projects2 {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: left;
+  font-family: var(--title-heading-3-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-3-font-size, 32px);
+  font-weight: var(--title-heading-3-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.side-project-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 740px;
+  height: 228px;
+  position: absolute;
+  left: 0px;
+  top: 70px;
+}
+.rectangle-2 {
+  flex-shrink: 0;
+  width: 306px;
+  height: 228px;
+  position: relative;
+}
+.blog-4 {
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+  height: 234px;
+  position: relative;
+}
+.high-rise-office-building {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: relative;
+  align-self: stretch;
+}
+.an-office-building-designed-in-ningbo-china-the-buildings-consists-of-office-hosting-floors-as-well-as-marketing-floor-in-which-a-mall-and-an-entertainment-area-exists {
+  color: var(--true-gray-700, #404040);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+}
+._2021-2022 {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font-family: var(
+    --body-mobile-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--body-mobile-regular-font-size, 16px);
+  line-height: var(--body-mobile-regular-line-height, 24px);
+  font-weight: var(--body-mobile-regular-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+}
+.side-project-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 740px;
+  height: 271px;
+  position: absolute;
+  left: 0px;
+  top: 298px;
+}
+.blog-42 {
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+  height: 274px;
+  position: relative;
+}
+.happy-place-kindergarten {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: relative;
+  align-self: stretch;
+}
+.this-design-was-a-challenging-one-in-my-second-year-it-s-a-kindergarten-designed-located-in-ningbo-china-the-challenge-was-to-design-in-accordance-with-the-chinese-school-design-codes-which-was-a-challenging-yet-rewarding-opportunity {
+  color: var(--true-gray-700, #404040);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+}
+._2019-2020 {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font-family: var(
+    --body-mobile-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--body-mobile-regular-font-size, 16px);
+  line-height: var(--body-mobile-regular-line-height, 24px);
+  font-weight: var(--body-mobile-regular-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+}
+.rectangle-22 {
+  flex-shrink: 0;
+  width: 306px;
+  height: 271px;
+  position: relative;
+}
+.side-project-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 740px;
+  height: 282px;
+  position: absolute;
+  left: 348px;
+  top: 1898px;
+}
+.rectangle-23 {
+  flex-shrink: 0;
+  width: 318px;
+  height: 282px;
+  position: relative;
+}
+.blog-43 {
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.hill-side-villa {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: relative;
+  align-self: stretch;
+}
+.one-of-my-favourite-designs-is-this-hill-side-villa-located-in-los-angeles-california-we-were-given-the-liberty-to-experience-with-design-shape-and-aesthetics-as-long-as-we-meet-the-necessary-requirements-and-the-result-was-great {
+  color: var(--true-gray-700, #404040);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+}
+.selected-works {
+  width: 740px;
+  height: 886px;
+  position: absolute;
+  left: 350px;
+  top: 363px;
+}
+.selected-works2 {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: left;
+  font-family: var(--title-heading-3-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-3-font-size, 32px);
+  font-weight: var(--title-heading-3-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.case-study-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 740px;
+  position: absolute;
+  left: 0px;
+  top: 70px;
+}
+.rectangle-24 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 280px;
+  position: relative;
+}
+.text2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.pan-tianshu-architecture-college {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: relative;
+  align-self: stretch;
+}
+.architecture-faculty-building-designed-to-host-architecture-classes-2022-2023 {
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+}
+.architecture-faculty-building-designed-to-host-architecture-classes-2022-2023-span {
+  color: var(--true-gray-700, #404040);
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+}
+.architecture-faculty-building-designed-to-host-architecture-classes-2022-2023-span2 {
+  color: var(--true-gray-500, #737373);
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+}
+.case-study-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 360px;
+  position: absolute;
+  left: 0px;
+  top: 498px;
+}
+.hassan-ii-museum {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: relative;
+  align-self: stretch;
+}
+.an-museum-designed-to-showcase-the-struggles-the-moroccan-people-had-to-endure-during-colonisation-period-2022-2023 {
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+}
+.an-museum-designed-to-showcase-the-struggles-the-moroccan-people-had-to-endure-during-colonisation-period-2022-2023-span {
+  color: var(--true-gray-700, #404040);
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+}
+.an-museum-designed-to-showcase-the-struggles-the-moroccan-people-had-to-endure-during-colonisation-period-2022-2023-span2 {
+  color: var(--true-gray-500, #737373);
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+}
+.case-study-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 360px;
+  position: absolute;
+  left: 380px;
+  top: 498px;
+}
+.ningbo-international-resort {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: relative;
+  align-self: stretch;
+}
+.an-international-resort-Located-in-Ningbo-a-mixture-of-luxury-and-comfort {
+  color: var(--true-gray-700, #404040);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+}
+.here-is-a-selection-of-my-previous-designs {
+  color: var(--true-gray-700, #404040);
+  text-align: center;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 385px;
+  top: 275px;
+  width: 670px;
+}
+.portfolio {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: center;
+  font-family: var(--title-heading-1-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-1-font-size, 64px);
+  font-weight: var(--title-heading-1-font-weight, 700);
+  position: absolute;
+  left: 535px;
+  top: 180px;
+}
+.navigation-header {
+  background: var(--white, #ffffff);
+  padding: 24px 160px 24px 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.logo {
+  flex-shrink: 0;
+  width: 90px;
+  height: 28px;
+  position: relative;
+  overflow: hidden;
+}
+.fath {
+  color: #000000;
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.menu-links {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.home {
+  flex-shrink: 0;
+  width: 52px;
+  height: 30px;
+  position: relative;
+}
+.home2 {
+  color: var(--true-gray-700, #404040);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.work {
+  flex-shrink: 0;
+  width: 46px;
+  height: 30px;
+  position: relative;
+}
+.selected {
+  width: 74px;
+  height: 3px;
+  position: absolute;
+  left: -9.5px;
+  top: 27px;
+  overflow: visible;
+}
+.portfolio2 {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: center;
+  font-family: var(
+    --body-semibold-font-family,
+    "WorkSans-SemiBold",
+    sans-serif
+  );
+  font-size: var(--body-semibold-font-size, 18px);
+  line-height: var(--body-semibold-line-height, 28px);
+  font-weight: var(--body-semibold-font-weight, 600);
+  position: absolute;
+  left: -23.5px;
+  top: 1px;
+  width: 102px;
+}
+.about {
+  flex-shrink: 0;
+  width: 53px;
+  height: 30px;
+  position: relative;
+}
+.about2 {
+  color: var(--true-gray-700, #404040);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.social2 {
+  background: var(--white, #ffffff);
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-mail2 {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.icon3 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.icon4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1254px;
+  top: 28px;
+  overflow: visible;
+}

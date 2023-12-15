@@ -1,0 +1,98 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --white: #ffffff;
+  --black: #000000;
+  --true-gray-50: #fafafa;
+  --true-gray-100: #f5f5f5;
+  --true-gray-200: #e5e5e5;
+  --true-gray-300: #d4d4d4;
+  --true-gray-400: #a3a3a3;
+  --true-gray-500: #737373;
+  --true-gray-600: #525252;
+  --true-gray-700: #404040;
+  --true-gray-800: #282828;
+  --true-gray-900: #0c0b0b;
+  --brand-twitter: #03a9f4;
+  --brand-linked-in: #0077b5;
+  --brand-instagram: linear-gradient(
+    49.12deg,
+    rgba(255, 221, 85, 1) 0%,
+    rgba(255, 84, 62, 1) 50%,
+    rgba(200, 55, 171, 1) 100%
+  );
+
+  /* Fonts */
+  --title-heading-1-font-family: WorkSans-Bold, sans-serif;
+  --title-heading-1-font-size: 64px;
+  --title-heading-1-line-height: normal;
+  --title-heading-1-font-weight: 700;
+  --title-heading-1-font-style: normal;
+  --title-heading-2-font-family: WorkSans-Bold, sans-serif;
+  --title-heading-2-font-size: 48px;
+  --title-heading-2-line-height: normal;
+  --title-heading-2-font-weight: 700;
+  --title-heading-2-font-style: normal;
+  --title-heading-3-font-family: WorkSans-Bold, sans-serif;
+  --title-heading-3-font-size: 32px;
+  --title-heading-3-line-height: normal;
+  --title-heading-3-font-weight: 700;
+  --title-heading-3-font-style: normal;
+  --title-heading-4-font-family: WorkSans-Bold, sans-serif;
+  --title-heading-4-font-size: 24px;
+  --title-heading-4-line-height: normal;
+  --title-heading-4-font-weight: 700;
+  --title-heading-4-font-style: normal;
+  --title-heading-5-font-family: WorkSans-Bold, sans-serif;
+  --title-heading-5-font-size: 20px;
+  --title-heading-5-line-height: normal;
+  --title-heading-5-font-weight: 700;
+  --title-heading-5-font-style: normal;
+  --title-subtitle-font-family: WorkSans-Medium, sans-serif;
+  --title-subtitle-font-size: 20px;
+  --title-subtitle-line-height: 28px;
+  --title-subtitle-font-weight: 500;
+  --title-subtitle-font-style: normal;
+  --body-regular-font-family: WorkSans-Medium, sans-serif;
+  --body-regular-font-size: 18px;
+  --body-regular-line-height: 28px;
+  --body-regular-font-weight: 500;
+  --body-regular-font-style: normal;
+  --body-semibold-font-family: WorkSans-SemiBold, sans-serif;
+  --body-semibold-font-size: 18px;
+  --body-semibold-line-height: 28px;
+  --body-semibold-font-weight: 600;
+  --body-semibold-font-style: normal;
+  --body-bold-font-family: WorkSans-Bold, sans-serif;
+  --body-bold-font-size: 18px;
+  --body-bold-line-height: 28px;
+  --body-bold-font-weight: 700;
+  --body-bold-font-style: normal;
+  --body-mobile-regular-font-family: WorkSans-Medium, sans-serif;
+  --body-mobile-regular-font-size: 16px;
+  --body-mobile-regular-line-height: 24px;
+  --body-mobile-regular-font-weight: 500;
+  --body-mobile-regular-font-style: normal;
+  --body-mobile-semibold-font-family: WorkSans-SemiBold, sans-serif;
+  --body-mobile-semibold-font-size: 16px;
+  --body-mobile-semibold-line-height: 24px;
+  --body-mobile-semibold-font-weight: 600;
+  --body-mobile-semibold-font-style: normal;
+  --body-mobile-bold-font-family: WorkSans-Bold, sans-serif;
+  --body-mobile-bold-font-size: 16px;
+  --body-mobile-bold-line-height: 24px;
+  --body-mobile-bold-font-weight: 700;
+  --body-mobile-bold-font-style: normal;
+  --secondary-regular-font-family: WorkSans-Medium, sans-serif;
+  --secondary-regular-font-size: 14px;
+  --secondary-regular-line-height: 24px;
+  --secondary-regular-font-weight: 500;
+  --secondary-regular-font-style: normal;
+  --secondary-bold-font-family: WorkSans-Bold, sans-serif;
+  --secondary-bold-font-size: 14px;
+  --secondary-bold-line-height: 24px;
+  --secondary-bold-font-weight: 700;
+  --secondary-bold-font-style: normal;
+
+  /* Effects */
+}

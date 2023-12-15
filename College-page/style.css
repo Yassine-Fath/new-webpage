@@ -1,0 +1,521 @@
+.first-case-study,
+.first-case-study * {
+  box-sizing: border-box;
+}
+.first-case-study {
+  background: var(--white, #ffffff);
+  width: 1440px;
+  height: 3511px;
+  position: relative;
+  overflow: hidden;
+}
+.navigation-header {
+  background: var(--white, #ffffff);
+  padding: 24px 160px 24px 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.logo {
+  flex-shrink: 0;
+  width: 90px;
+  height: 28px;
+  position: relative;
+  overflow: hidden;
+}
+.fath {
+  color: #000000;
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.menu-links {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.home {
+  flex-shrink: 0;
+  width: 52px;
+  height: 30px;
+  position: relative;
+}
+.home2 {
+  color: var(--true-gray-700, #404040);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.work {
+  flex-shrink: 0;
+  width: 46px;
+  height: 30px;
+  position: relative;
+}
+.selected {
+  width: 74px;
+  height: 3px;
+  position: absolute;
+  left: -9.5px;
+  top: 27px;
+  overflow: visible;
+}
+.portfolio {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: center;
+  font-family: var(
+    --body-semibold-font-family,
+    "WorkSans-SemiBold",
+    sans-serif
+  );
+  font-size: var(--body-semibold-font-size, 18px);
+  line-height: var(--body-semibold-line-height, 28px);
+  font-weight: var(--body-semibold-font-weight, 600);
+  position: absolute;
+  left: -23.5px;
+  top: 1px;
+  width: 102px;
+}
+.about {
+  flex-shrink: 0;
+  width: 53px;
+  height: 30px;
+  position: relative;
+}
+.about2 {
+  color: var(--true-gray-700, #404040);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.social {
+  background: var(--white, #ffffff);
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-mail {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.hero {
+  width: 1120px;
+  height: 571px;
+  position: absolute;
+  left: 160px;
+  top: 160px;
+}
+.pan-tianshu-architecture-college {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: center;
+  font-family: var(--title-heading-2-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-2-font-size, 48px);
+  font-weight: var(--title-heading-2-font-weight, 700);
+  position: absolute;
+  left: 88px;
+  top: 0px;
+}
+.architecture-faculty-located-at-ningbo-university-in-ningbo-china-designed-to-host-architecture-related-classes {
+  color: var(--true-gray-700, #404040);
+  text-align: center;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 225px;
+  top: 72px;
+  width: 670px;
+}
+.rectangle-2 {
+  width: 1120px;
+  height: 383px;
+  position: absolute;
+  left: 0px;
+  top: 188px;
+}
+.body {
+  width: 740px;
+  height: 1984px;
+  position: absolute;
+  left: 446px;
+  top: 771px;
+}
+.i-am-delighted-to-embark-on-the-remarkable-journey-of-creating-a-cutting-edge-educational-facility-for-the-architectural-department-at-ningbo-university-as-a-final-year-architecture-student-situated-in-the-heart-of-the-university-s-campus-adjacent-to-the-south-gate-this-project-demands-a-meticulous-approach-that-takes-into-consideration-the-existing-campus-structures-such-as-the-library-the-institute-of-advanced-technology-teaching-building-and-the-gymnasium-with-a-primary-emphasis-on-harmonizing-the-overall-campus-spatial-dynamics-tasked-with-choosing-between-two-similar-plots-with-distinct-characteristics-i-selected-the-first-one-due-to-its-superior-adaptability-and-well-proportioned-layout {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 48px;
+  width: 670px;
+}
+.the-teaching-building-comprises-of-three-floors-with-an-area-of-12000-m-2-the-building-is-set-to-have-two-blocks-connected-with-each-other-yet-distinguished-which-will-host-different-functions-establishing-a-harmonious-atmosphere-of-quiet-and-noisy-the-first-floor-is-set-to-have-exhibition-area-as-well-as-the-lobby-and-the-admiration-area-in-the-second-floor-we-have-an-administration-area-and-studio-classrooms-both-located-in-block-a-which-is-the-quiet-part-of-the-building-where-as-in-block-b-we-have-public-classrooms-labs-as-well-as-a-study-area-moving-on-to-the-third-floor-we-have-studio-classrooms-as-well-as-model-making-classrooms-in-block-a-and-private-lecture-rooms-public-classrooms-review-classrooms-and-study-areas-in-block-b {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 747px;
+  width: 670px;
+}
+.div {
+  opacity: 0.30000001192092896;
+  width: 81px;
+  height: 64px;
+  position: absolute;
+  left: 722px;
+  top: 999px;
+  transform: translate(-81px, -64px);
+  overflow: visible;
+}
+.in-order-to-enhance-building-s-natural-ventilation-the-courtyards-help-defuse-the-sun-heat-and-in-addition-to-bringing-in-natural-daylight-they-also-help-facilitate-natural-ventilation-creating-areas-of-low-pressure-that-can-pull-fresh-air-into-the-building-while-exhaust-vents-can-expel-stale-air-this-can-help-improve-indoor-air-quality-and-reduce-the-need-for-mechanical-ventilation-systems-leading-to-potential-energy-savings {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 1214px;
+  width: 670px;
+}
+.to-tackle-the-general-sustainability-of-the-form-the-building-was-designed-in-a-simple-l-shape-with-the-longest-fa-ade-facing-east-in-order-to-reduce-the-heat-from-the-intense-sun-during-the-summer-months-in-response-to-the-ningbo-city-climatic-factors-while-minimizing-windows-glazing-ratio-on-the-north-side-which-will-prevent-heat-loss-during-the-winter-the-use-of-a-skin-fa-ade-to-minimize-sunlight-entering-the-building-will-also-help-to-reduce-cooling-loads-and-create-a-comfortable-indoor-environment-in-addition-the-two-courtyards-in-the-building-blocks-will-provide-direct-sunlight-and-natural-ventilation {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 1806px;
+  width: 670px;
+}
+.rectangle-1 {
+  width: 455px;
+  height: 320px;
+  position: absolute;
+  left: 285px;
+  top: 348px;
+}
+.rectangle-3 {
+  width: 397px;
+  height: 320px;
+  position: absolute;
+  left: 0px;
+  top: 1402px;
+}
+.intro {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.technical-drawings {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 699px;
+}
+.technology {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 1166px;
+}
+.aesthetics {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 1758px;
+}
+.rectangle-24 {
+  width: 286px;
+  height: 159px;
+  position: absolute;
+  left: 0px;
+  top: 348px;
+}
+.rectangle-25 {
+  width: 286px;
+  height: 171px;
+  position: absolute;
+  left: -1px;
+  top: 497px;
+  overflow: visible;
+}
+.rectangle-26 {
+  width: 275px;
+  height: 162px;
+  position: absolute;
+  left: 395px;
+  top: 1400px;
+}
+.rectangle-27 {
+  width: 275px;
+  height: 162px;
+  position: absolute;
+  left: 395px;
+  top: 1562px;
+}
+.rectangle-32 {
+  width: 740px;
+  height: 320px;
+  position: absolute;
+  left: 422px;
+  top: 2880px;
+}
+.index {
+  width: 220px;
+  height: 208px;
+  position: absolute;
+  left: 160px;
+  top: 771px;
+}
+.table-of-contents {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--secondary-bold-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--secondary-bold-font-size, 14px);
+  line-height: var(--secondary-bold-line-height, 24px);
+  font-weight: var(--secondary-bold-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.index2 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 40px;
+}
+.rectangle-33 {
+  background: var(--true-gray-800, #282828);
+  flex-shrink: 0;
+  width: 4px;
+  height: 24px;
+  position: relative;
+}
+.content-selected {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(
+    --body-mobile-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--body-mobile-regular-font-size, 16px);
+  line-height: var(--body-mobile-regular-line-height, 24px);
+  font-weight: var(--body-mobile-regular-font-weight, 500);
+  position: relative;
+  width: 200px;
+}
+.index3 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 88px;
+}
+.content-name {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(
+    --body-mobile-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--body-mobile-regular-font-size, 16px);
+  line-height: var(--body-mobile-regular-line-height, 24px);
+  font-weight: var(--body-mobile-regular-font-weight, 500);
+  position: relative;
+}
+.index4 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 136px;
+}
+.index5 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 184px;
+}
+.navigation-footer {
+  background: var(--white, #ffffff);
+  padding: 24px 160px 24px 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 3431px;
+  box-shadow: inset 0px 1px 0px 0px rgba(229, 229, 229, 1);
+  overflow: hidden;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.fath-yassine {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font-family: var(
+    --secondary-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--secondary-regular-font-size, 14px);
+  line-height: var(--secondary-regular-line-height, 24px);
+  font-weight: var(--secondary-regular-font-weight, 500);
+  position: relative;
+}
+.div2 {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font-family: var(
+    --secondary-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--secondary-regular-font-size, 14px);
+  line-height: var(--secondary-regular-line-height, 24px);
+  font-weight: var(--secondary-regular-font-weight, 500);
+  position: relative;
+}
+.feel-free-to-drop-a-hello-fathyassine-20-gmail-com {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font-family: var(
+    --secondary-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--secondary-regular-font-size, 14px);
+  line-height: var(--secondary-regular-line-height, 24px);
+  font-weight: var(--secondary-regular-font-weight, 500);
+  position: relative;
+}
+.social2 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-mail2 {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.icon2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.icon3 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.icon4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1260px;
+  top: 28px;
+  overflow: visible;
+}

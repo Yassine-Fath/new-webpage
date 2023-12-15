@@ -1,0 +1,561 @@
+.container {
+  max-width: 100%;
+}
+
+.project-images img {
+  width: 100%;
+}
+.home,
+.home * {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.home {
+  background: #ffffff;
+  width: 1440px;
+  height: 2139px;
+  position: relative;
+  overflow: hidden;
+}
+.navigation-header {
+  background: var(--white, #ffffff);
+  padding: 24px 160px 24px 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.logo {
+  flex-shrink: 0;
+  width: 90px;
+  height: 28px;
+  position: relative;
+  overflow: hidden;
+}
+.fath {
+  color: #000000;
+  text-align: left;
+  font: var(--title-heading-4, 700 24px "WorkSans-Bold", sans-serif);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.menu-links {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.home2 {
+  flex-shrink: 0;
+  width: 52px;
+  height: 30px;
+  position: relative;
+}
+.selected {
+  background: var(--true-gray-900, #0c0b0b);
+  width: 52px;
+  height: 4px;
+  position: absolute;
+  left: 0px;
+  top: 26px;
+}
+.home3 {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: left;
+  font: var(--body-semibold, 600 18px/28px "WorkSans-SemiBold", sans-serif);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.work {
+  flex-shrink: 0;
+  width: 46px;
+  height: 30px;
+  position: relative;
+}
+.portfolio {
+  color: var(--true-gray-700, #404040);
+  text-align: center;
+  font: var(--body-regular, 500 18px/28px "WorkSans-Medium", sans-serif);
+  position: absolute;
+  left: -23.5px;
+  top: 1px;
+  width: 102px;
+}
+.about {
+  flex-shrink: 0;
+  width: 53px;
+  height: 30px;
+  position: relative;
+}
+.about2 {
+  color: var(--true-gray-700, #404040);
+  text-align: left;
+  font: var(--body-regular, 500 18px/28px "WorkSans-Medium", sans-serif);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.social {
+  background: var(--white, #ffffff);
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-mail {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.social2 {
+  background: var(--black, #000000);
+  width: 1440px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 580px;
+  overflow: hidden;
+}
+.find-me-across-the-internet {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: var(--body-bold, 700 18px/28px "WorkSans-Bold", sans-serif);
+  position: absolute;
+  left: 287px;
+  top: 26px;
+}
+.icon2 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 682px;
+  top: 28px;
+  overflow: visible;
+}
+.icon3 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 756px;
+  top: 31px;
+  overflow: visible;
+}
+.icon4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 756px;
+  top: 31px;
+  overflow: visible;
+}
+.icon5 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 830px;
+  top: 28px;
+  overflow: visible;
+}
+.icon-mail2 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 603px;
+  top: 25px;
+  overflow: visible;
+}
+.hero {
+  background: #0085ff;
+  width: 1440px;
+  height: 500px;
+  position: absolute;
+  left: 0px;
+  top: 80px;
+  overflow: hidden;
+}
+.fath-yassine {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: center;
+  font: 700 105.81px "WorkSans-Bold", sans-serif;
+  position: absolute;
+  left: 350px;
+  top: 152px;
+}
+.button-primary {
+  background: var(--black, #000000);
+  padding: 10px 24px 10px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 234px;
+  position: absolute;
+  left: 466px;
+  top: 338px;
+}
+.button-name {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: var(--body-bold, 700 18px/28px "WorkSans-Bold", sans-serif);
+  position: relative;
+}
+.button-secondary {
+  border-style: solid;
+  border-color: var(--true-gray-900, #0c0b0b);
+  border-width: 2px;
+  padding: 10px 24px 10px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 740px;
+  top: 338px;
+}
+.button-name2 {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: left;
+  font: var(--body-bold, 700 18px/28px "WorkSans-Bold", sans-serif);
+  position: relative;
+}
+.icon6 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1258px;
+  top: 28px;
+  overflow: visible;
+}
+.portfolio2 {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font: var(--title-heading-3, 700 32px "WorkSans-Bold", sans-serif);
+  position: absolute;
+  left: 349px;
+  top: 720px;
+}
+.button-secondary2 {
+  background: var(--white, #ffffff);
+  border-style: solid;
+  border-color: var(--black, #000000);
+  border-width: 2px;
+  padding: 10px 24px 10px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 234px;
+  position: absolute;
+  left: 350px;
+  top: 1923px;
+}
+.button-name3 {
+  color: var(--black, #000000);
+  text-align: left;
+  font: var(--body-bold, 700 18px/28px "WorkSans-Bold", sans-serif);
+  position: relative;
+}
+.case-study-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 360px;
+  position: absolute;
+  left: 349px;
+  top: 798px;
+}
+.rectangle-2 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 280px;
+  position: relative;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.pan-tianshu-architecture-college {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: center;
+  font: var(--title-heading-4, 700 24px "WorkSans-Bold", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.architecture-faculty-building-designed-to-host-architecture-classes {
+  color: var(--true-gray-700, #404040);
+  text-align: left;
+  font: var(--body-regular, 500 18px/28px "WorkSans-Medium", sans-serif);
+  position: relative;
+  align-self: stretch;
+  height: 89px;
+}
+.case-study-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 360px;
+  position: absolute;
+  left: 729px;
+  top: 798px;
+}
+.hassan-ii-musuem {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: center;
+  font: var(--title-heading-4, 700 24px "WorkSans-Bold", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.an-museum-designed-to-showcase-the-struggles-the-moroccan-people-had-to-endure-during-colonisation-period {
+  color: var(--true-gray-700, #404040);
+  text-align: left;
+  font: var(--body-regular, 500 18px/28px "WorkSans-Medium", sans-serif);
+  position: relative;
+  align-self: stretch;
+  height: 121px;
+}
+.side-project-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 740px;
+  position: absolute;
+  left: 348px;
+  top: 1530px;
+}
+.rectangle-22 {
+  flex-shrink: 0;
+  width: 170px;
+  height: 132px;
+  position: relative;
+}
+.blog-4 {
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.high-rise-office-building {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: left;
+  font: var(--title-heading-4, 700 24px "WorkSans-Bold", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.group-1 {
+  flex-shrink: 0;
+  width: 550px;
+  height: 56px;
+  position: static;
+}
+.an-office-building-designed-to-host-company-related-work-as-well-exhibitions-and-multi-purposes-areas {
+  color: var(--true-gray-700, #404040);
+  text-align: left;
+  font: var(--body-regular, 500 18px/28px "WorkSans-Medium", sans-serif);
+  position: absolute;
+  left: 2px;
+  top: 38px;
+  width: 550px;
+}
+._2021-2022 {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font: var(--body-mobile-regular, 500 16px/24px "WorkSans-Medium", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.other-projects {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font: var(--title-heading-3, 700 32px "WorkSans-Bold", sans-serif);
+  position: absolute;
+  left: 344px;
+  top: 1286px;
+}
+.navigation-footer {
+  background: var(--white, #ffffff);
+  padding: 24px 160px 24px 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 2059px;
+  box-shadow: inset 0px 1px 0px 0px rgba(229, 229, 229, 1);
+  overflow: hidden;
+}
+.text2 {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.fath-yassine2 {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font: var(--secondary-regular, 500 14px/24px "WorkSans-Medium", sans-serif);
+  position: relative;
+}
+. {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font: var(--secondary-regular, 500 14px/24px "WorkSans-Medium", sans-serif);
+  position: relative;
+}
+.feel-free-to-drop-a-hello-fathyassine-20-gmail-com {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font: var(--secondary-regular, 500 14px/24px "WorkSans-Medium", sans-serif);
+  position: relative;
+}
+.social3 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-mail3 {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.icon7 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.icon8 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.side-project-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 740px;
+  position: absolute;
+  left: 350px;
+  top: 1700px;
+}
+.ningbo-international-resort {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: left;
+  font: var(--title-heading-4, 700 24px "WorkSans-Bold", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.expedita-et-eveniet-non-accusantium-perspiciatis-quam-deleniti-pariatur-optio-quo-dicta-voluptate {
+  color: var(--true-gray-700, #404040);
+  text-align: left;
+  font: var(--body-regular, 500 18px/28px "WorkSans-Medium", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.side-project-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 740px;
+  position: absolute;
+  left: 350px;
+  top: 1367px;
+}
+.happy-place-kindergarten {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: left;
+  font: var(--title-heading-4, 700 24px "WorkSans-Bold", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.a-kindergarten-located-in-ningbo {
+  color: var(--true-gray-700, #404040);
+  text-align: left;
+  font: var(--body-regular, 500 18px/28px "WorkSans-Medium", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+._2019-2020 {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font: var(--body-mobile-regular, 500 16px/24px "WorkSans-Medium", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+._2022-2023 {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font: var(--body-mobile-regular, 500 16px/24px "WorkSans-Medium", sans-serif);
+  position: absolute;
+  left: 350px;
+  top: 1215px;
+  width: 550px;
+}
+._2022-20232 {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font: var(--body-mobile-regular, 500 16px/24px "WorkSans-Medium", sans-serif);
+  position: absolute;
+  left: 730px;
+  top: 1215px;
+  width: 550px;
+}
