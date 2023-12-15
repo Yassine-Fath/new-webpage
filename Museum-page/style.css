@@ -1,0 +1,534 @@
+.second-case-study,
+.second-case-study * {
+  box-sizing: border-box;
+}
+.second-case-study {
+  background: var(--white, #ffffff);
+  width: 1440px;
+  height: 3511px;
+  position: relative;
+  overflow: hidden;
+}
+.navigation-header {
+  background: var(--white, #ffffff);
+  padding: 24px 160px 24px 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.logo {
+  flex-shrink: 0;
+  width: 90px;
+  height: 28px;
+  position: relative;
+  overflow: hidden;
+}
+.fath {
+  color: #000000;
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.menu-links {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.home {
+  flex-shrink: 0;
+  width: 52px;
+  height: 30px;
+  position: relative;
+}
+.home2 {
+  color: var(--true-gray-700, #404040);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.work {
+  flex-shrink: 0;
+  width: 46px;
+  height: 30px;
+  position: relative;
+}
+.selected {
+  width: 74px;
+  height: 3px;
+  position: absolute;
+  left: -9.5px;
+  top: 27px;
+  overflow: visible;
+}
+.portfolio {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: center;
+  font-family: var(
+    --body-semibold-font-family,
+    "WorkSans-SemiBold",
+    sans-serif
+  );
+  font-size: var(--body-semibold-font-size, 18px);
+  line-height: var(--body-semibold-line-height, 28px);
+  font-weight: var(--body-semibold-font-weight, 600);
+  position: absolute;
+  left: -23.5px;
+  top: 1px;
+  width: 102px;
+}
+.about {
+  flex-shrink: 0;
+  width: 53px;
+  height: 30px;
+  position: relative;
+}
+.about2 {
+  color: var(--true-gray-700, #404040);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.social {
+  background: var(--white, #ffffff);
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-mail {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.hero {
+  width: 1120px;
+  height: 571px;
+  position: absolute;
+  left: 160px;
+  top: 160px;
+}
+.hassan-ii-museum {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: center;
+  font-family: var(--title-heading-2-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-2-font-size, 48px);
+  font-weight: var(--title-heading-2-font-weight, 700);
+  position: absolute;
+  left: 324px;
+  top: 0px;
+}
+.a-museum-designed-to-showcase-the-struggles-the-moroccan-people-had-to-endure-during-colonisation-period {
+  color: var(--true-gray-700, #404040);
+  text-align: center;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 225px;
+  top: 72px;
+  width: 670px;
+}
+.rectangle-2 {
+  width: 1120px;
+  height: 383px;
+  position: absolute;
+  left: 0px;
+  top: 188px;
+}
+.body {
+  width: 740px;
+  height: 2576px;
+  position: absolute;
+  left: 446px;
+  top: 771px;
+}
+.embark-on-a-visual-journey-through-the-heart-of-casablanca-morocco-where-my-team-and-i-crafted-a-museum-of-independence-war-collaborating-during-my-final-architecture-internship-we-chose-a-strategic-site-next-to-the-iconic-hassan-ii-mosque-casablanca-the-economic-port-of-morocco-symbolizes-the-struggles-of-colonization-making-it-the-perfect-backdrop-our-museum-is-a-tribute-to-the-resilient-spirit-of-a-people-fighting-for-freedom-morocco-s-rich-islamic-arabic-and-amazigh-heritage-served-as-our-design-inspiration-join-us-in-resurrecting-history-through-a-captivating-fusion-of-architecture-and-culture-breathing-life-into-the-narrative-of-a-nation-s-struggle-for-independence {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 48px;
+  width: 670px;
+}
+.the-different-spaces-of-the-museum-can-be-grouped-in-three-functions-the-exhibition-the-public-space-and-staff-space-the-public-spaces-are-composed-of-offices-technical-research-area-and-storage-the-museum-has-two-main-entrances-which-are-the-public-entrance-for-the-visitors-and-the-staff-entrance-for-the-workers-so-the-workers-and-the-visitor-s-have-a-different-circulation-to-keep-the-public-and-private-area-separated {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 747px;
+  width: 670px;
+}
+.div {
+  opacity: 0.30000001192092896;
+  width: 81px;
+  height: 64px;
+  position: absolute;
+  left: 722px;
+  top: 999px;
+  transform: translate(-81px, -64px);
+  overflow: visible;
+}
+.the-site-features-carefully-installed-lights-to-ensure-optimal-illumination-day-and-night-three-main-colors-red-green-and-white-representing-elements-of-the-moroccan-flag-were-strategically-placed-red-symbolizes-sacrifice-green-signifies-unity-and-white-represents-peace-the-design-pays-homage-to-moroccan-architecture-with-an-atrium-inspired-by-the-andalusian-style-the-skylight-provides-ample-daylight-while-the-parametric-exterior-wall-controls-it-the-use-of-traditional-materials-including-moroccan-tiles-zellige-and-marble-stone-further-emphasizes-the-blend-of-old-and-modern-architectural-styles {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: -5px;
+  top: 1240px;
+  width: 740px;
+}
+.in-an-attempt-to-link-the-old-with-the-new-the-history-with-the-future-we-tried-to-make-the-shape-of-the-building-as-a-modern-form-whilst-keeping-the-history-within-its-interior-a-history-represented-by-the-atrium-in-the-middle-insinuating-the-famous-moroccan-riyad-forms-the-design-consists-of-three-floors-each-related-to-a-specific-period-the-first-floor-we-designed-was-darker-than-the-other-two-floors-with-no-daylight-only-from-the-skylight-in-the-centre-symbolizing-the-dark-years-morocco-used-to-live-pre-colonial-time-in-which-the-country-was-divided-into-tribes-hating-each-other-as-you-climb-the-exterior-stairs-to-the-second-floor-you-feel-the-progress-and-development-morocco-tried-to-make-in-the-colonial-period-colonized-by-three-countries-at-the-same-time-morocco-suffered-for-years-until-independence-a-history-we-tried-to-insinuate-through-the-maximizing-of-daylight-entering-the-building-and-the-use-of-parametric-walls-in-the-exhibition-best-showcasing-the-future-awaiting-ahead {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 1778px;
+  width: 670px;
+}
+.rectangle-1 {
+  width: 455px;
+  height: 312px;
+  position: absolute;
+  left: 285px;
+  top: 356px;
+}
+.rectangle-25 {
+  width: 455px;
+  height: 283px;
+  position: absolute;
+  left: 0px;
+  top: 915px;
+}
+.rectangle-3 {
+  width: 740px;
+  height: 268px;
+  position: absolute;
+  left: -5px;
+  top: 1464px;
+}
+.intro {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.technical-drawings {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 699px;
+}
+.technology {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: -8px;
+  top: 1198px;
+}
+.aesthetics {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 1741px;
+}
+.rectangle-24 {
+  width: 286px;
+  height: 312px;
+  position: absolute;
+  left: 0px;
+  top: 356px;
+}
+.rectangle-252 {
+  width: 280px;
+  height: 134px;
+  position: absolute;
+  left: 901px;
+  top: 1686px;
+}
+.rectangle-26 {
+  width: 280px;
+  height: 149px;
+  position: absolute;
+  left: 901px;
+  top: 1820px;
+}
+.rectangle-32 {
+  width: 454px;
+  height: 320px;
+  position: absolute;
+  left: 732px;
+  top: 3009px;
+}
+.rectangle-4 {
+  width: 310px;
+  height: 160px;
+  position: absolute;
+  left: 422px;
+  top: 3009px;
+}
+.rectangle-5 {
+  width: 310px;
+  height: 160px;
+  position: absolute;
+  left: 422px;
+  top: 3169px;
+}
+.index {
+  width: 220px;
+  height: 208px;
+  position: absolute;
+  left: 160px;
+  top: 771px;
+}
+.table-of-contents {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--secondary-bold-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--secondary-bold-font-size, 14px);
+  line-height: var(--secondary-bold-line-height, 24px);
+  font-weight: var(--secondary-bold-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.index2 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 40px;
+}
+.rectangle-33 {
+  background: var(--true-gray-800, #282828);
+  flex-shrink: 0;
+  width: 4px;
+  height: 24px;
+  position: relative;
+}
+.content-selected {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(
+    --body-mobile-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--body-mobile-regular-font-size, 16px);
+  line-height: var(--body-mobile-regular-line-height, 24px);
+  font-weight: var(--body-mobile-regular-font-weight, 500);
+  position: relative;
+  width: 200px;
+}
+.index3 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 88px;
+}
+.content-name {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(
+    --body-mobile-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--body-mobile-regular-font-size, 16px);
+  line-height: var(--body-mobile-regular-line-height, 24px);
+  font-weight: var(--body-mobile-regular-font-weight, 500);
+  position: relative;
+}
+.index4 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 136px;
+}
+.index5 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 184px;
+}
+.navigation-footer {
+  background: var(--white, #ffffff);
+  padding: 24px 160px 24px 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 3431px;
+  box-shadow: inset 0px 1px 0px 0px rgba(229, 229, 229, 1);
+  overflow: hidden;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.fath-yassine {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font-family: var(
+    --secondary-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--secondary-regular-font-size, 14px);
+  line-height: var(--secondary-regular-line-height, 24px);
+  font-weight: var(--secondary-regular-font-weight, 500);
+  position: relative;
+}
+.div2 {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font-family: var(
+    --secondary-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--secondary-regular-font-size, 14px);
+  line-height: var(--secondary-regular-line-height, 24px);
+  font-weight: var(--secondary-regular-font-weight, 500);
+  position: relative;
+}
+.feel-free-to-drop-a-hello-fathyassine-20-gmail-com {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font-family: var(
+    --secondary-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--secondary-regular-font-size, 14px);
+  line-height: var(--secondary-regular-line-height, 24px);
+  font-weight: var(--secondary-regular-font-weight, 500);
+  position: relative;
+}
+.social2 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-mail2 {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.icon2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.icon3 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.icon4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1260px;
+  top: 28px;
+  overflow: visible;
+}
